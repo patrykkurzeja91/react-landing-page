@@ -10,7 +10,6 @@ import Testimonials from "./components/Testimonials";
 import Resume from "./components/Resume";
 
 
-
 class App extends Component {
   constructor(props) {
     super(props);
