@@ -1,6 +1,6 @@
 {
   "main": {
-    "name":"Patrick Kurzeja",
+    "name":"Patrick",
     "occupation":"Civil Engineer.. and wannabe Web developer!",
     "description":"I finished Front-end developement bootcamp and I wish to become a true Full Stack developer",
     "image":"profilepic.jpg",
@@ -14,7 +14,7 @@
       "zip": "191919"
     },
     "website": "http://www.techguywebsolutions.com",
-    "resumedownload":"http://something.com",
+    "resumeDownload":"https://drive.google.com/file/d/14fQVZQGlygI0EmbMmpFsOkn4MO_TsV0x/view?usp=sharing",
     "social":[
       {
         "name":"facebook",
