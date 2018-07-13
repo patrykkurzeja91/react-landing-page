@@ -14,7 +14,8 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      resumeData: {}
+      resumeData: {},
+      modal: false,
     }
   }
   componentDidMount(){
@@ -34,6 +35,14 @@ class App extends Component {
        }
     })
   }
+//   renderModal(){
+//     if(this.state.modal) {
+//         return(
+//             <Modal1 text={"Modal Text"} onClose={()=> this.setState({modal: false})} />
+//         )
+//     }
+//     return null;
+// }
   render() {
     console.log(this.state.resumeData);
     return (
