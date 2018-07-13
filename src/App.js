@@ -23,7 +23,7 @@ class App extends Component {
   }
   getResumeData(){
     $.ajax({
-      url: ('http://localhost:3000/resumeData.json' || 'https://react-landing-page.herokuapp.com/resumeData.json'), 
+      url: 'https://react-landing-page.herokuapp.com/resumeData.json', 
       dataType: 'json',
       cache: false,
       success: function(data) {
